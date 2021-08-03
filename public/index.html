@@ -1,0 +1,77 @@
+<!-- control names that need to be updated
+    radio#pin#controltype
+
+    bench#8#button
+
+-->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="./css/index.css">
+    <title>API</title>
+</head>
+
+<body>
+    <main>
+        <article>
+            <h1>LED Lights</h1>
+            <canvas id="colorCanvas"></canvas>
+            <fieldset>
+                <legend>Select lights to set</legend>
+                <div class="checkbox">
+                    <label>
+                        <input type="checkbox" name="ledlightcheckbox" id="bench#8">
+                        <span id="bench#8#span">Bench Strip</span>
+                    </label>
+                </div>
+                <br>
+                <div class="checkbox">
+                    <label>
+                        <input type="checkbox" name="ledlightcheckbox" id="garage#9">
+                        <span id="garage#9#span">Bench Ring</span>
+                    </label>
+                </div>
+                <br>
+                <div class="checkbox">
+                    <label>
+                        <input onclick="togglecheckboxes(this)" type="checkbox" name="ledlightcheckbox" id="all">
+                        <span>All</span>
+                    </label>
+                </div>
+
+            </fieldset>
+
+            <button onclick="setledlights()" id="setledlights">Set</button>
+            <button onclick="setledlights('000000')" id="setledlightsoff">Off</button>
+        </article>
+
+        <article>
+            <h1>Bench</h1>
+            <fieldset>
+                <legend>Select pin to set</legend>
+                <div>
+                    <label>
+                        <span>Pin 4</span>
+                        <button onclick="sendData('bench','4',false,'')" id="bench#4">¯\_(ツ)_/¯</button>
+                    </label>
+                </div>
+                <br>
+                <div>
+                    <label>
+                        <span>Pin 5</span>
+                        <button onclick="sendData('bench','5',false,'')" id="bench#5">¯\_(ツ)_/¯</button>
+                    </label>
+                </div>
+            </fieldset>
+        </article>
+    </main>
+
+    <script src="/js/socket.io.js"></script>
+    <script src="./js/index.js"></script>
+
+</body>
+
+</html>
