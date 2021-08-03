@@ -6,7 +6,8 @@
 <img src="./img/serialcable.png" width="400"/>
 
 ---
-### Arduino code
+### Arduino code link below
+https://github.com/prichardsondev/RaspberryPiServer_Xbee_Arduino <br />
     
 ### Description
 Communication between Raspberry Pi and Arduino using Xbee Radios <br/>
