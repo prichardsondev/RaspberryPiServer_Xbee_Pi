@@ -36,7 +36,7 @@ Code by no-means is perfect - I welcome any input
 ---
 
 ### Video Overview
-https://www.screencast.com/t/fb2EgPdK
+WIP
 
 
 ---
@@ -58,9 +58,9 @@ https://www.screencast.com/t/fb2EgPdK
 - npm install
 
 - src/radios/bench.js
-  
-- add address of router radio (lowercase)
-
+  - add address of router radio (lowercase)
+  - this is the radio attached to you arduino
+  - 
 - connect Coordinator radio to USB port
 
 - npm start
