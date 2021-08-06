@@ -3,7 +3,7 @@
 ---
 
 <img src="./img/xbee.png" width="400"/>
-<img src="./img/arduino.png" width="400"/>
+<img src="./img/serialcable.png" width="400"/>
 
 ---
 ### Arduino code link below
