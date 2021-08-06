@@ -36,7 +36,7 @@ Code by no-means is perfect - I welcome any input
 ---
 
 ### Video Overview
-WIP
+https://youtube.com/playlist?list=PLlnL61QfD9UbcGw8Oxz-KtOhbSqJ4oTW1
 
 
 ---
@@ -59,9 +59,11 @@ WIP
 
 - src/radios/bench.js
   - add address of router radio (lowercase)
-  - this is the radio attached to you arduino
-  - 
+  - this is the radio attached to your arduino
+  
 - connect Coordinator radio to USB port
+  - note you many have to edit port top of /src/serial/xbeeSerial.js
+  - at terminal type ls /dev/tty* to check your xbee port
 
 - npm start
 
