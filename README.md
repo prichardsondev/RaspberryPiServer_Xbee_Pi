@@ -3,7 +3,7 @@
 ---
 
 <img src="./img/xbee.png" width="400"/>
-<img src="./img/serialcable.png" width="400"/>
+<img src="./img/arduino.png" width="400"/>
 
 ---
 ### Arduino code link below
@@ -36,7 +36,7 @@ Code by no-means is perfect - I welcome any input
 ---
 
 ### Video Overview
-https://youtube.com/playlist?list=PLlnL61QfD9UbcGw8Oxz-KtOhbSqJ4oTW1
+https://www.youtube.com/watch?v=zoc-5arh9Yg&list=PLlnL61QfD9UbcGw8Oxz-KtOhbSqJ4oTW1
 
 
 ---
