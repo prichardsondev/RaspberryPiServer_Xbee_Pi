@@ -38,7 +38,7 @@ Code by no-means is perfect - I welcome any input
 ---
 
 ### Video Overview
-https://www.youtube.com/watch?v=zoc-5arh9Yg&list=PLlnL61QfD9UbcGw8Oxz-KtOhbSqJ4oTW1
+https://www.youtube.com/playlist?list=PLlnL61QfD9UbcGw8Oxz-KtOhbSqJ4oTW1
 
 
 ---
